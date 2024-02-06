@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <button type="submit" id="btn" onclick="openPopup()">Submit</button>
+        <div class="popup" id="popup">
+            <img src="tick.png" alt="tick">
+            <button id="close" onclick="closePopup()">&times;</button>
+            <h1>ThankYou</h1>
+            <p>Your Request Has been Succeed...</p>
+            <button type="submit" id="btn1" onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

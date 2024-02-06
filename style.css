@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(183, 225, 250); */
+    background-color: beige;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    color: rgb(109, 106, 106);
+    background-color: rgb(128, 236, 102);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 5px;
+    color: black;
+    opacity: 70%;
+}
+
+#btn:hover{
+    transition-duration: 0.5s;
+    opacity: 100%;
+}
+
+.popup{
+    border: 5px solid gray;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 0px 15px 20px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border-radius: 30px;
+    visibility: hidden;
+}
+
+.showPopup{
+    visibility: visible;
+}
+
+h1,p{
+    background-color: #fff;
+}
+
+.popup img{
+    width: 25%;
+    border-radius: 50px;
+    margin-top: -13%;
+    border: 5px solid gray;
+    background-color: #fff;
+}
+
+#btn1{
+    background-color: rgb(128, 236, 102);
+    padding: 8px 140px;
+    margin-top: 5%;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+#btn1:hover{
+    opacity: 70%;
+    transition-duration: 0.5s;
+}
+#close{
+    /* align-items: end; */
+    background-color: transparent;
+    padding: 5px 15px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: transparent;
+    border-radius: 10px;
+    
+}
+
+#close:hover{
+    background-color: rgb(214, 214, 214);
+    transition: 0.5s;
+}
+
+button#close{
+    font-size: 30px;
+}
+
+
